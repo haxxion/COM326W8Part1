@@ -11,6 +11,8 @@
 #include <iostream>
 #include "Student.h"
 #include "Module.h"
+#include "Person.h"
+#include "Lecturer.h"
 
 using namespace std;
 
@@ -20,6 +22,7 @@ int main() {
 	Student stu2("Frank Lyons");
 	Student stu3{};
 
+	Lecturer myLect{"Bob", "bob@gmai.com", "1234", "Maths" };
 	//Overload the input operator
 	//cin >> stu3;
 
